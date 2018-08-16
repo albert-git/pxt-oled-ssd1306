@@ -29,7 +29,7 @@ namespace OLED {
 	
 	//%
     void showStringWithoutNewline(StringData *text) {
-		oled->printf("%s", text);
+		oled->printf("%s", "just test");
 		oled->display();
     }
 
